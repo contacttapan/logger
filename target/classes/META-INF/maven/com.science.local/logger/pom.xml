@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.science.local</groupId>
+  <artifactId>logger</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+                <dependency>
+                        <!--we will use logback as logger implementation, it is also possible 
+                                to log4j and java logging -->
+                        <groupId>ch.qos.logback</groupId>
+                        <artifactId>logback-classic</artifactId>
+                        <version>1.1.2</version>
+                </dependency>
+                <dependency>
+                        <groupId>net.sf.aspect4log</groupId>
+                        <artifactId>aspect4log</artifactId>
+                        <version>1.0.7</version>
+                </dependency>
+                <!-- http://mvnrepository.com/artifact/junit/junit -->
+				<dependency>
+				    <groupId>junit</groupId>
+				    <artifactId>junit</artifactId>
+				    <version>4.8.1</version>
+				</dependency>
+                
+        </dependencies>
+</project>
